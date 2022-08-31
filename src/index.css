@@ -1,0 +1,36 @@
+body {
+    font-family: 'Brush Script MT', cursive;
+  }
+
+section{
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-right: 10%;
+    box-shadow: 20px;
+}
+
+
+.container {
+display: flex;
+
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid rgb(230, 219, 219);
+    box-shadow: 5px 5px 5px 5px rgb(51, 56, 58);
+
+    
+}
+.head {
+    display: flex;
+    flex-direction: row;
+}
+.display-page {
+    float: left;
+}
+.add-page {
+    gap: 24px;
+    align-items: flex-start;
+    padding: 24px 12px;
+    width: 544px;
+    height: 445px;
+}
