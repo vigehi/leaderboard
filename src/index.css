@@ -1,36 +1,62 @@
-body {
-    font-family: 'Brush Script MT', cursive;
-  }
-
 section{
-    margin-left: 10%;
+    margin-left: 5%;
     margin-top: 5%;
     margin-right: 10%;
-    box-shadow: 20px;
+    margin-bottom: auto;
+    box-shadow: 5px 10px #888888;
+    border: 1px solid wheat;
 }
 
-
-.container {
-display: flex;
-
-    flex-direction: row;
-    align-items: center;
-    border: 1px solid rgb(230, 219, 219);
-    box-shadow: 5px 5px 5px 5px rgb(51, 56, 58);
-
-    
-}
-.head {
+h1 {
+    margin-left: 65px;
+  }
+  
+  .container {
     display: flex;
     flex-direction: row;
-}
-.display-page {
-    float: left;
-}
-.add-page {
-    gap: 24px;
-    align-items: flex-start;
-    padding: 24px 12px;
-    width: 544px;
-    height: 445px;
-}
+    justify-content: space-around;
+    gap: 10px;
+  }
+  
+  .container div {
+    width: 40vw;
+  }
+  
+  .head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 20px;
+  }
+  
+  .head button {
+    width: 100px;
+    height: 25px;
+    margin-top: 20px;
+  }
+  
+  .leaderboard-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 10px solid #000;
+    padding: 5px 10px;
+  }
+  
+  .items {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  
+  .score-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 60%;
+  }
+  
+  .add-btn {
+    text-align: right;
+  }
+  
