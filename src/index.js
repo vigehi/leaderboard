@@ -1,4 +1,5 @@
 import './index.css';
+// eslint-disable-line 
 import getApi from './modules/getApi.js';
 import sendAPi from './modules/getScores.js';
 
