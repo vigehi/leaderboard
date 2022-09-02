@@ -64,8 +64,6 @@ h1 {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  border: 2px solid rgb(123, 119, 119);
-  width: 180px;
   text-align: start;
 }
 
@@ -74,6 +72,6 @@ h1 {
   margin: 7px 0;
 }
 
-.score-board:nth-child(odd) {
+.leaderboard-list:nth-child(odd) {
   background-color: #d3d3d3;
 }

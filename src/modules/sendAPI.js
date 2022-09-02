@@ -3,7 +3,7 @@ async function sendAPi() {
   fetch(send, {
     method: 'POST',
     body: JSON.stringify({
-      name: 'Beyo',
+      // name: 'Beyo',
     }),
     headers: {
       'Content-type': 'application/json; charset=UTF-8',
