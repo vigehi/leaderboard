@@ -1,7 +1,7 @@
 import './index.css';
+import  getApi  from './modules/getApi.js';
+import  sendAPi  from './modules/getScores.js';
 
-import sendAPi from './modules/getApi.js';
-import getApi from './modules/getScores.js';
 const refresh = document.querySelector('.refresh-btn');
 export const List = document.querySelector('.leaderboard-list');
 const name1 = document.querySelector('#name');
@@ -11,11 +11,11 @@ add.addEventListener('click', (e) => {
   e.preventDefault();
   const Value1 = name1.value;
   const Value2 = score1.value;
-  sendAPi( Value1, Value2); 
+  sendAPi(Value1, Value2);
   name1.value = '';
   score1.value = '';
 });
 
 refresh.addEventListener('click', () => {
   getApi();
-}); 
+});
