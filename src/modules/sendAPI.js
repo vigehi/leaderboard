@@ -1,4 +1,4 @@
-async function sendAPi() {
+const sendAPi = async() =>{
   const send = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/';
   fetch(send, {
     method: 'POST',
