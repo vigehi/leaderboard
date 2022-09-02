@@ -3,7 +3,7 @@
 
 #  Leaderboard
 
-> My Portfolio version skeleton.
+> My game version skeleton.
 
 
 ## Built With
