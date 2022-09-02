@@ -1,4 +1,4 @@
-async function sendAPi(arg1, arg2) {
+const sendAPi = (arg1, arg2) => {
   const send = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/p5yqiCio7d4FE7KGl6s2/scores';
   fetch(send, {
     method: 'POST',

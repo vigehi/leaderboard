@@ -1,6 +1,6 @@
 import leadList from '../index.js';
 
-async function getApi() {
+const getApi = async() => {
   const datar = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/p5yqiCio7d4FE7KGl6s2/scores';
   const dataf = await fetch(datar);
   const jsonFormat = await dataf.json();
