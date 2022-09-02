@@ -1,6 +1,6 @@
 import { List } from '../index.js';
 async function getApi() {
-    const datar = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/2YZHWXMnjuWaiwI5N8as/scores';
+    const datar = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/p5yqiCio7d4FE7KGl6s2/scores';
     const dataf = await fetch(datar);
     const jsonFormat = await dataf.json();
     List.innerHTML = '';
